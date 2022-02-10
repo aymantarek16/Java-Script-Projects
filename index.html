@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Level 3 Projects</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap 4 -->
+    <link  rel="stylesheet" href="Css/bootstrap.min.css" />
+    <!-- Css File -->
+    <link  rel="stylesheet" href="Css/style.css" />
+    <!-- Js File1 Change Color & Bg -->
+    <script defer src="javascript/1- Change_Color.js"></script>
+    <!-- Js File2 Auto writing -->
+    <script defer src="javascript/2- Auto Writing.js"></script>
+    <!-- Js File3 Random Youtube -->
+    <script defer src="javascript/3- random_youtube.js"></script>
+    <!-- Js File4 Heart Animation -->
+    <script defer src="javascript/4- HeartAnimation.js"></script>
+    <!-- js File5 Accordion -->
+    <script defer src="javascript/5- Accordion.js"></script>
+    <!-- js File6 Digital Clock -->
+    <script defer src="javascript/6- digital clock.js"></script>
+
+
+  </head>
+
+  <body id="body">
+
+    <!-- Header -->
+    <header class="myheader" id="myheader">
+      <h1 id="Courses4Arab" style="margin-bottom: 40px;">java Script Projects</h1>
+
+      <nav>
+        <ul class="parent">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="Other Projects.html"> Other Projects </a></li>
+          <li><a href="Online Store.html"> Online Store</a></li>
+          <li id="dark" class="mode">Night Mode</li>
+          <li id="changecolorbox" class="change_color">
+            Change color
+
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+
+    <main id="main">
+      <!-- Section Who Iam -->
+      <section id="sec">
+        <h1 class="who js_title titBackground" id="who_iam"></h1>
+
+        <div class="flex">
+          <article class="left-section">
+            <h3 id="my_goal">My Goal</h3>
+
+            <p style="margin-bottom: 50px; font-size: 21px;">
+              Building <i>12</i> real projects in the field of work using the JavaScript
+               language and applying these projects in my websites on my profile
+            </p>
+
+            <a id="you" class="youtube" href="#"> Youtube </a>
+
+            <a class="facebook" href=""> Facebook </a>
+          </article>
+
+          <article class="right-section">
+            <img class="my-img" src="img/Ayman Tarek.jpg" alt="" />
+
+            <h5>Ayman Tarek</h5>
+
+            <p class="para">Front End Web Developer</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Heart Animation -->
+      <section>
+        <h1 class="who js_title titBackground" id="congrat">
+          Congratulations Animation
+        </h1>
+
+        <div
+          class="containerHeart"
+          id="containerHeart"
+          style="margin: 50px 0"
+        ></div>
+
+        <button class="myButton btn_heart" id="randomHeart">
+          Random Hearts
+        </button>
+      </section>
+
+      <!-- Section Youtube Video -->
+      <section>
+        <h2 class="js_title titBackground">Youtube Random Video 😍</h2>
+
+        <div id="sec_ifram">
+          <div id="container_iframe">
+            <iframe
+              id="iframe"
+              src="https://www.youtube.com/embed/Mhp2W3O_cXU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <button class="myButton" id="myButton">Random Video</button>
+        </div>
+      </section>
+
+      <!-- Setion quotes  -->
+      <section>
+        <h2 class="js_title titBackground" style="margin: 100px auto">
+          Random quotes &#128156;
+        </h2>
+
+        <div id="parentquote">
+          <blockquote lang="ar" dir="rtl" class="sidekick">
+            لا تيأس من الحياة اجعلها تيأس منك
+            <br />
+
+            <cite> ايمن طارق </cite>
+          </blockquote>
+       
+        </div>
+        <button
+        id="randomquote"
+        class="random-video-button myButton"
+        style="
+          background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+          background-color: #c123de;
+          text-shadow: 0px 1px 0px #9b14b3;
+          border: 1px solid #a511c0;
+          box-shadow: inset -2px -3px 2px#e184f3;
+        "
+      >
+        Random quote
+      </button>
+      </section>
+
+      <!-- Section of Accordion -->
+      <section class="acc">
+        <h2 class="js_title titBackground">javascript Accordion</h2>
+
+        <div class="container-of-qa">
+          <!-- q1 -->
+          <div class="q1">
+            <div class="title-accordion">
+              <h3>what is Html ?</h3>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              The HyperText Markup Language, or HTML is the standard markup
+              language for documents designed to be displayed in a web browser.
+              It can be assisted by technologies such as Cascading Style Sheets
+              (CSS) and scripting languages such as JavaScript. Web browsers
+              receive HTML documents from a web server or from local storage and
+              render the documents into multimedia web pages. HTML describes the
+              structure of a web page semantically and originally included cues
+              for the appearance of the document.
+            </p>
+          </div>
+          <!-- q2 -->
+          <div class="q2">
+            <div class="title-accordion">
+              <h3>what is Css ?</h3>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              Cascading Style Sheets (CSS) is a style sheet language used for
+              describing the presentation of a document written in a markup
+              language such as HTML. CSS is a cornerstone technology of the
+              World Wide Web , alongside HTML and JavaScript. CSS is designed to
+              enable the separation of presentation and content, including
+              layout, colors, and fonts This separation can improve content
+              accessibility, provide more flexibility.
+              
+            </p>
+          </div>
+          <!-- q3 -->
+          <div class="q3">
+            <div class="title-accordion">
+              <h3>what is Java Script ?</h3>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              JavaScript is a high-level, often just-in-time compiled language
+              that conforms to the ECMAScript standard.It has dynamic
+              typing, prototype-based object-orientation, and first-class
+              functions. It is multi-paradigm, supporting event-driven,
+              functional, and imperative programming styles. It has application
+              programming interfaces (APIs) for working with text, dates,
+              regular expressions, standard data structures, and the Document
+              Object Model (DOM).
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Section of Digital Clock -->
+
+      <section>
+
+        <h2 class="js_title titBackground">Digital Clock</h2>
+
+        <div id="clock_container"  class="clock-container">
+
+          <!-- Here Js Code -->
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+
+
+    </main>
+
+
+     
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer>
+      <p class="follow">
+        You can follow the latest news of the site and the channel on
+        <a href=""> Facebook </a>
+      </p>
+
+      <p class="design">Designed and developed by Ayman Tarek © 2022</p>
+    </footer>
+  </body>
+</html>

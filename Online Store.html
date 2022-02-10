@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Other Projects</title>
+    <!-- BootStrap File -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- Css Icon Moon -->
+    <link rel="stylesheet" href="icomoon/style.css" />
+    <!-- Css Main File -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- Css Store File -->
+    <link rel="stylesheet" href="Css/Store.css" />
+    <!-- Change Color & Bg -->
+    <script defer src="javascript/1- Change_Color.js"></script>
+    <!-- js File11 Ecommerce project-->
+    <script defer src="javascript/11-Ecommerce project.js"></script>
+  </head>
+
+  <body id="body">
+    <!-- Header -->
+    <header class="myheader" id="myheader">
+      <h1
+        id="Courses4Arab"
+        style="margin-bottom: 40px; font-size: 40px; font-weight: 500"
+      >
+        java Script Projects
+      </h1>
+
+      <nav>
+        <ul class="parent">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="Other Projects.html"> Other Projects </a></li>
+          <li><a href="Online Store.html"> Online Store</a></li>
+          <li id="dark" class="mode">Night Mode</li>
+          <li id="changecolorbox" class="change_color">
+            Change color
+
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+      <!-- Section Ecommerce project-->
+      <section>
+
+        <h2 class="js_title titBackground">Ecommerce Project &#128525</h2>
+
+        <div class="show_items" id="show_items">
+            Show Items
+        </div>
+
+        <div class="parent-of-cards">
+            <div class="card" style="width: 20rem;">
+                <img src="img/T-shirts/1.jfif" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Black T-shirt</h5>
+                    <p class="card-text">
+                        Material : Cotton  <br>
+                        Available size : L
+                    </p>
+
+                    <div style="display: flex; justify-content: space-between;align-items: center;">
+                        <button  class="btn btn-primary">Add To Card</button>
+                        <div class="price">$10</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+
+                <img src="img/T-shirts/2.jpeg" class="card-img-top">
+                <div class="card-body">
+
+                    <h5 class="card-title" style="margin-top: 5px;">Gray T-shirt</h5>
+                    <p class="card-text">
+                        Material : Cotton  <br>
+                        Available size : 2XL
+                    </p>
+
+                    <div style="display: flex; justify-content: space-between;">
+                        <button class="btn btn-primary" style="height: 40px;">Add To Card</button>
+                        <div class="price" style="line-height: 40px;">$20</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="card" style="width: 20rem;">
+
+                <img src="img/T-shirts/3.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title" style="margin-top: 15px;">Blue T-shirt</h5>
+                    <p class="card-text">
+                        Material : Cotton  <br>
+                        Available size : XL
+                    </p>
+
+
+                    <div style="display: flex; justify-content: space-between;">
+                        <button class="btn btn-primary">Add To Card</button>
+                        <div class="price" style="line-height: 35px;">$15</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="card" style="width: 20rem;">
+
+                <img src="img/T-shirts/4.jfif" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Sleeve T-shirt</h5>
+                    <p class="card-text">
+                        Material : Cotton  <br>
+                        Available size : M
+                    </p>
+
+                    <div style="display: flex; justify-content: space-between;">
+                        <button class="btn btn-primary">Add To Card</button>
+                        <div class="price">$12</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <!-- Div Of Show Items Section -->
+      <div dir="rtl" id="blackScreen" class="back-screen">
+
+        <div style="color: white;" id="close"> &#10006; </div>
+
+
+        <article id="allProducts" class="all-products">
+
+        </article>
+
+
+        <article class="confrim-buy" dir="rtl">
+
+            <div>
+                <p>المجموع</p>
+                <p id="totalPrice">$0</p>
+
+            </div>
+
+            <button class="btn btn-danger" id="btnOfProcess">تنفيذ عمليه الشراء</button>
+        </article>
+
+
+
+    </div>
+
+
+
+
+    </main>
+  </body>
+</html>
