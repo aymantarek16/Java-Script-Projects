@@ -1,4 +1,4 @@
-# Java-Script-Projects
+# 12 Java Script Projects
 
 ### Technologies Used:
 
